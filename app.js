@@ -37,7 +37,7 @@ App({
     })
 
     //bmob初始化
-    Bmob.initialize("00babd2162d0927b63484e982c499007", "00babd2162d0927b63484e982c499007");
+    Bmob.initialize("00babd2162d0927b63484e982c499007", "0f125191e7a0b31dbba831d8f920bb8a");
     console.log("Bmob init success.");
 
   },
