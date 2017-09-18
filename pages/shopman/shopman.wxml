@@ -1,2 +1,8 @@
 <!--pages/shopman/shopman.wxml-->
-<text>pages/shopman/shopman.wxml</text>
+<view class="shopcontainer">
+  <scroll-view style='height:{{scrollHeight}}px;background:red' >
+      <block wx:for="{{text}}">
+          <view>{{item}}</view>
+      </block>
+  </scroll-view>
+</view>
